@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Awsome Cosmetic</title>
+  <meta name="description" content="コスメのセレクトショップのサイトです。">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <!-- drawer.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- iScroll -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+</head>
+
+<body class="drawer drawer--right">
+
+  <!-- header -->
+  <header class="header" role="banner">
+    <div class="container header-container">
+      <div class="header-left">
+        <p class="header-logo">
+          <a class="header-logo-link" href="#">LogoLOGO<br><span class="header-logo-sub">コスメです。</span></a>
+        </p>
+      </div>
+      <nav class="header-right pc">
+        <ul class="header-right-lists">
+          <li class="header-right-list"><a href="#about">ABOUT</a></li>
+          <li class="header-right-list"><a href="#item">ITEM</a></li>
+          <li class="header-right-list"><a href="#price">PRICE</a></li>
+          <li class="header-right-list"><a href="#blog">BLOG</a></li>
+          <li class="header-right-list"><a href="#access">ACCESS</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-right sp">
+      <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+      <nav class="drawer-nav" role="navigation">
+        <ul class="drawer-menu">
+          <li><a class="drawer-brand" href="#">TOP</a></li>
+          <li class="drawer-menu-item header-right-list"><a href="#about">ABOUT</a></li>
+          <li class="drawer-menu-item header-right-list"><a href="#item">ITEM</a></li>
+          <li class="drawer-menu-item header-right-list"><a href="#price">PRICE</a></li>
+          <li class="drawer-menu-item header-right-list"><a href="#blog">BLOG</a></li>
+          <li class="drawer-menu-item header-right-list"><a href="#access">ACCESS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- main-v -->
+    <section class="main-v">
+      <div class="container main-v-container">
+        <h1 class="main-v-catch">Awesome<br>Cosmetic</h1>
+        <p class="main-v-catch-sub">コスメのセレクトショップ<br class="sp">のサイトです。</p>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container about-container">
+        <div class="about-left">
+          <div class="heading about-left-heading">
+            <h2 class="heading-title about-left-heading-title">ABOUT</h2>
+            <p class="heading-title-sub about-left-heading-title-sub">私たちについて</p>
+          </div>
+          <h3 class="about-left-middle-title">お店のコンセプト</h3>
+          <p class="about-left-txt">コンセプトについての説明。コンセプトについての説明。コンセプトについての説明。コンセプトについての説明。コンセプトについての説明。コンセプトについての説明。コンセプトについての説明。</p>
+        </div>
+        <div class="about-right">
+          <p class="about-right-img">
+            <img src="images/about.png" alt="コスメ">
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- item -->
+    <section class="item" id="item">
+      <div class="container item-container">
+        <div class="heading item-heading">
+          <h2 class="heading-title item-heading-title">ITEM</h2>
+          <p class="heading-title-sub item-heading-title-sub">アイテム</p>
+        </div>
+        <ul class="item-lists lists">
+          <li class="item-list list">
+            <a class="item-list-link list-link" href="#">
+              <p class="item-list-img list-img"><img src="images/item-1.png" alt="ファンデーション"></p>
+              <p class="item-list-caption list-caption">ファンデーション</p>
+              <dl class="item-list-def-list list-def-list">
+                <dt class="item-list-def-list-t list-def-list-t">商品名</dt>
+                <dt class="item-list-def-list-d list-def-list-d"><span class="sp">商品について</span><span class="pc">この商品の説明。この商品の説明。この商品の説明。この商品の説明。この商品の説明。この商品の説明。</span></dt>
+              </dl>
+            </a>
+          </li>
+          <li class="item-list list">
+            <a class="item-list-link list-link" href="#">
+              <p class="item-list-img list-img"><img src="images/item-2.png" alt="リップ"></p>
+              <p class="item-list-caption list-caption">リップ</p>
+              <dl class="item-list-def-list list-def-list">
+                <dt class="item-list-def-list-t list-def-list-t">コスメ2コスメ2コスメ2コスメ2コスメ2</dt>
+                <dt class="item-list-def-list-d list-def-list-d"><span class="sp">商品について</span><span class="pc">商品について商品について商品について商品について商品について商品について</span></dt>
+              </dl>
+            </a>
+          </li>
+          <li class="item-list list pc">
+            <a class="item-list-link list-link" href="#">
+              <p class="item-list-img list-img"><img src="images/item-3.png" alt="アイシャドー"></p>
+              <p class="item-list-caption list-caption">アイシャドー</p>
+              <dl class="item-list-def-list list-def-list">
+                <dt class="item-list-def-list-t list-def-list-t">コスメ3コスメ3コスメ3コス</dt>
+                <dt class="item-list-def-list-d list-def-list-d">真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中</dt>
+              </dl>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- price -->
+    <section class="price" id="price">
+      <div class="price-background sp"></div>
+      <div class="container price-container">
+        <div class="price-background pc"></div>
+        <div class="price-item">
+          <div class="heading price-item-heading">
+            <h2 class="heading-title price-item-heading-title">PRICE</h2>
+            <p class="heading-title-sub price-item-heading-title-sub">料金表</p>
+          </div>
+          <table class="price-table">
+            <tr class="price-table-row">
+              <th class="price-table-header">アイライナー</th>
+              <td class="price-table-data">¥3,000</td>
+            </tr>
+            <tr class="price-table-row">
+              <th class="price-table-header">リップ</th>
+              <td class="price-table-data">¥3,000</td>
+            </tr>
+            <tr class="price-table-row">
+              <th class="price-table-header">グロス</th>
+              <td class="price-table-data">¥3,000</td>
+            </tr>
+            <tr class="price-table-row">
+              <th class="price-table-header">シャドウ</th>
+              <td class="price-table-data">¥3,000</td>
+            </tr>
+            <tr class="price-table-row">
+              <th class="price-table-header">マニキュア</th>
+              <td class="price-table-data">¥3,000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog -->
+    <section class="blog" id="blog">
+      <div class="container blog-container">
+        <div class="heading blog-heading">
+          <h2 class="heading-title blog-heading-title">BLOG</h2>
+          <p class="heading-title-sub blog-heading-title-sub">ブログ</p>
+        </div>
+        <ul class="blog-lists lists">
+          <li class="blog-list list">
+            <a class="blog-list-link list-link" href="#">
+              <p class="blog-list-img list-img"><img src="images/blog-1.png" alt="ブログ記事"></p>
+              <dl class="blog-list-def-list list-def-list">
+                <dt class="blog-list-def-list-t list-def-list-t"><time datetime="2019-12-3">2019/12/3</time></dt>
+                <dt class="blog-list-def-list-d list-def-list-d">1月の営業日ご案内。</dt>
+              </dl>
+            </a>
+          </li>
+          <li class="blog-list list">
+            <a class="blog-list-link list-link" href="#">
+              <p class="blog-list-img list-img"><img src="images/blog-2.png" alt="ブログ記事"></p>
+              <dl class="blog-list-def-list list-def-list">
+                <dt class="blog-list-def-list-t list-def-list-t"><time datetime="2019-11-2">2019/11/2</time></dt>
+                <dt class="blog-list-def-list-d list-def-list-d">12月の営業日ご案内。</dt>
+              </dl>
+            </a>
+          </li>
+          <li class="blog-list list">
+            <a class="blog-list-link list-link" href="#">
+              <p class="blog-list-img list-img"><img src="images/blog-3.png" alt="ブログ記事"></p>
+              <dl class="blog-list-def-list list-def-list">
+                <dt class="blog-list-def-list-t list-def-list-t"><time datetime="2019-11-2">2019/11/2</time></dt>
+                <dt class="blog-list-def-list-d list-def-list-d">メイク始めました。</dt>
+              </dl>
+            </a>
+          </li>
+          <li class="blog-list list">
+            <a class="blog-list-link list-link" href="#">
+              <p class="blog-list-img list-img"><img src="images/blog-3.png" alt="ブログ記事"></p>
+              <dl class="blog-list-def-list list-def-list">
+                <dt class="blog-list-def-list-t list-def-list-t"><time datetime="2019-11-2">2019/11/2</time></dt>
+                <dt class="blog-list-def-list-d list-def-list-d">メイク始めました。</dt>
+              </dl>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- access -->
+    <section class="access" id="access">
+      <div class="container access-container">
+        <div class="heading access-heading">
+          <h2 class="heading-title access-heading-title">ACCESS</h2>
+          <p class="heading-title-sub access-heading-title-sub">アクセス</p>
+        </div>
+        <div class="lists access-lists">
+          <dl class="access-def-list">
+            <dt class="access-def-list-t">ADDRESS</dt>
+            <dd class="access-def-list-d">大阪市北区芝田一丁目</dd>
+            <dt class="access-def-list-t">TELL</dt>
+            <dd class="access-def-list-d">000-0000-0000</dd>
+            <dt class="access-def-list-t">ON TIME</dt>
+            <dd class="access-def-list-d">平日</dd>
+            <dt class="access-def-list-t">OFF TIME</dt>
+            <dd class="access-def-list-d">土曜日曜祝日</dd>
+          </dl>
+          <p class="access-caption sp">行き方の説明</p>
+          <p class="access-right">
+            <iframe class="access-right-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.948959351583!2d135.49557391517777!3d34.70646729041714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e691c5c21a61%3A0x426587edd82ea9dc!2z44CSNTMwLTAwMTIg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy66Iqd55Sw77yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1607490762868!5m2!1sja!2sjp" width="664" height="421" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </p>
+        </div>
+        <div class="access-bottom">
+          <h3 class="access-bottom-title">道順の説明</h3>
+          <ol class="access-bottom-lists">
+            <li class="access-bottom-list">①行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明</li>
+            <li class="access-bottom-list">②行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明</li>
+            <li class="access-bottom-list">③行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+    <!-- footer -->
+    <footer class="footer">
+      <p class="footer-logo">LOGOLOGo</p>
+
+      <div class="footer-caption">
+        <i class="footer-caption-icon fas fa-angle-double-up"></i>
+        <p class="footer-caption-txt"><span class="pc">PAGE</span>TOP</p>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <script src="js/drawer.js"></script>
+    <script src="js/target.js"></script>
+    <script src="js/pagetop.js"></script>
+</body>
+</html>
